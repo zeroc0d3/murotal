@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PATH_MUROTAL="/home/zeroc0d3/Documents/murotal/Misyari_Rasyid"
-DOWNLOAD_PATH="https://ia801204.us.archive.org/17/items/Misyari_Rasyid_per_Juz/"
+DOWNLOAD_PATH="https://ia801204.us.archive.org/17/items/Misyari_Rasyid_per_Juz"
 
 mkdir -p $PATH_MUROTAL
 cd $PATH_MUROTAL
