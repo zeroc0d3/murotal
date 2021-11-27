@@ -2,6 +2,16 @@
 
 High Quality Murotal Qur'an from Archive.org
 
+## Per-Juz (30 Juz)
+- 01. Syeikh Misyari Rasyid
+- 02. Syeikh Saad Al-Ghamidi
+- 03. Syeikh Abdurrahman As-Sudais
+- 04. Syeikh Hany Ar-Rifa'i
+- 05. Syeikh Yasser Al-Dosari
+- 06. Syeikh Saud Al-Shuraim
+- 07. Syeikh Nasser Al-Qatami
+- 08. Syeikh Abdul Basith
+
 ![all contributors](https://img.shields.io/github/contributors/zeroc0d3/murotal)
 ![tags](https://img.shields.io/github/v/tag/zeroc0d3/murotal?sort=semver)
 ![issues](https://img.shields.io/github/issues/zeroc0d3/murotal)
