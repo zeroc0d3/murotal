@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PATH_MUROTAL="/home/zeroc0d3/Documents/murotal/Misyari_Rasyid"
+PATH_MUROTAL="/home/zeroc0d3/Documents/murotal/1000_Misyari_Rasyid"
 DOWNLOAD_PATH="https://ia801204.us.archive.org/17/items/Misyari_Rasyid_per_Juz"
 
 mkdir -p $PATH_MUROTAL
@@ -16,13 +16,13 @@ do
       echo " Download Juz: 0$counter "
       echo =============================
       echo " >> $DOWNLOAD_PATH/0$counter.mp3"
-      wget $DOWNLOAD_PATH/0$counter.mp3
+      wget $DOWNLOAD_PATH/100$counter.mp3
     else
       echo =============================
       echo " Download Juz: $counter "
       echo =============================
       echo " >> $DOWNLOAD_PATH/$counter.mp3"
-      wget $DOWNLOAD_PATH/$counter.mp3
+      wget $DOWNLOAD_PATH/10$counter.mp3
     fi
     ((counter++))
     echo ""

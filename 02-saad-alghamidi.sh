@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PATH_MUROTAL="/home/zeroc0d3/Documents/murotal/Saad_AlGhamidi"
+PATH_MUROTAL="/home/zeroc0d3/Documents/murotal/1200_Saad_AlGhamidi"
 DOWNLOAD_PATH="https://ia903200.us.archive.org/20/items/SaadAl-GhamidiPerJuz"
 
 mkdir -p $PATH_MUROTAL
@@ -16,13 +16,13 @@ do
       echo " Download Juz: 0$counter "
       echo =============================
       echo " >> $DOWNLOAD_PATH/0$counter.mp3"
-      wget $DOWNLOAD_PATH/0$counter.mp3
+      wget $DOWNLOAD_PATH/120$counter.mp3
     else
       echo =============================
       echo " Download Juz: $counter "
       echo =============================
       echo " >> $DOWNLOAD_PATH/$counter.mp3"
-      wget $DOWNLOAD_PATH/$counter.mp3
+      wget $DOWNLOAD_PATH/12$counter.mp3
     fi
     ((counter++))
     echo ""

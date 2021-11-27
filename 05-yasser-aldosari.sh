@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PATH_MUROTAL="/home/zeroc0d3/Documents/murotal/Yasser_AlDosari"
+PATH_MUROTAL="/home/zeroc0d3/Documents/murotal/1800_Yasser_AlDosari"
 DOWNLOAD_PATH="https://ia803203.us.archive.org/26/items/YasserAlDosariPerJuz"
 
 mkdir -p $PATH_MUROTAL
@@ -16,13 +16,13 @@ do
       echo " Download Juz: 0$counter "
       echo =============================
       echo " >> $DOWNLOAD_PATH/0$counter.mp3"
-      wget $DOWNLOAD_PATH/0$counter.mp3
+      wget $DOWNLOAD_PATH/180$counter.mp3
     else
       echo =============================
       echo " Download Juz: $counter "
       echo =============================
       echo " >> $DOWNLOAD_PATH/$counter.mp3"
-      wget $DOWNLOAD_PATH/$counter.mp3
+      wget $DOWNLOAD_PATH/18$counter.mp3
     fi
     ((counter++))
     echo ""
