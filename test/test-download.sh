@@ -1,8 +1,13 @@
 #!/bin/sh
 
-PATH_MUROTAL="/home/zeroc0d3/Documents/murotal/2200_Nasser_AlQatami"
-DOWNLOAD_PATH="https://ia800400.us.archive.org/23/items/Nasseralqatamieveryjuz"
-ID_CODE="22"
+set -e
+
+TITLE="MUROTAL DOWNLOADER SCRIPT"    # script name
+VER="2.2"                            # script version
+
+PATH_MUROTAL="/Users/dwidenni/Documents/murotal/1000_Misyari_Rasyid"
+DOWNLOAD_PATH="https://ia801204.us.archive.org/17/items/Misyari_Rasyid_per_Juz"
+ID_CODE="10"
 
 COL_RED="\033[22;31m"
 COL_GREEN="\033[22;32m"
@@ -106,8 +111,7 @@ skip_exists() {
   then
     echo ">> Skip for existing file $1 ..."
   else
-    # echo "wget -O $1 $2"
-    wget -O $1 $2
+    echo "wget -O $1 $2"
   fi
 }
 

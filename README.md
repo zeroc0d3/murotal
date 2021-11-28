@@ -23,6 +23,10 @@ High Quality Murotal Qur'an from Archive.org
 2400. Syeikh Abdul Basith
 ```
 
+## How-to-Use
+
+- [Index Documentation](docs/INDEX.md)
+
 ## Copyright
 - Audio: **To the respect owner**
 - Script Author: **Dwi Fahni Denni (@zeroc0d3)**
