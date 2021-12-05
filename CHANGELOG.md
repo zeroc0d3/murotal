@@ -36,3 +36,18 @@ High Quality Murotal Qur'an from Archive.org
 - Added skip sequence for existing file
 - Added documentation how to use in `docs/index.md`
 - Added test script
+
+## Version 0.4
+
+- Added autodownload script for selected ID Murotal
+  ```
+  ./autodownload.sh [MID] [PATH_FOLDER]
+  ---
+  eg:
+  ./autodownload.sh 10 /home/zeroc0d3/Documents/murotal     # Download all murotal Syeikh Misyari Rasyid and save to spesific folder
+  ./autodownload.sh 16 /home/zeroc0d3/Documents/murotal     # Download all murotal Syeikh Hani Ar-Rifai and save to spesific folder
+  ```
+- Fixing wrong path download from MID: 2400
+  ```
+  PATH_MUROTAL="[PATH_DOWNLOAD]/2400_Abdul_Basit_AbdulSamad"
+  ```

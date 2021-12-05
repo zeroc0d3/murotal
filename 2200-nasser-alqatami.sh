@@ -45,7 +45,7 @@ header() {
   print_line0
   get_time
   echo "$COL_RED# BEGIN PROCESS..... (Please Wait)  $COL_END"
-  echo "$COL_RED# Start at: $DATE  $COL_END\n"
+  echo "$COL_RED# Start at: $DATE  $COL_END"
 }
 
 footer() {
@@ -79,6 +79,7 @@ download_below10() {
   FNAME="$PATH_MUROTAL/$ID_CODE$JUZ.mp3"
   msg_download $JUZ $DOWNLOAD_LINK
   skip_exists $FNAME $DOWNLOAD_LINK
+  echo "- DONE - "
   echo ""
 }
 
@@ -88,15 +89,15 @@ download_upper10() {
   FNAME="$PATH_MUROTAL/$ID_CODE$JUZ.mp3"
   msg_download $JUZ $DOWNLOAD_LINK
   skip_exists $FNAME $DOWNLOAD_LINK
+  echo "- DONE - "
   echo ""
 }
 
 msg_download() {
-  echo ""
   print_line2
   get_time
   echo "$COL_BLUE[ $DATE ] ##### Download Juz: $1 "
-  echo "$COL_GREEN[ $DATE ]       wget $2 $COL_END\n"
+  echo "$COL_GREEN[ $DATE ]       wget $2 $COL_END"
   get_time
   print_line2
 }

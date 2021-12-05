@@ -108,3 +108,13 @@ High Quality Murotal Qur'an from Archive.org
   # 10|03|002|0253
   1000_Misyari_Rasyid/10020020142.mp3  ## Juz 03 - Surah 02 - Ayyah 253
   ```
+
+## Autodownload Script
+
+```
+./autodownload.sh [MID] [PATH_FOLDER]
+---
+eg:
+./autodownload.sh 10 /home/zeroc0d3/Documents/murotal     # Download all murotal Syeikh Misyari Rasyid and save to spesific folder
+./autodownload.sh 16 /home/zeroc0d3/Documents/murotal     # Download all murotal Syeikh Hani Ar-Rifai and save to spesific folder
+```
