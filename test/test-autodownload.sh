@@ -6,7 +6,7 @@ TITLE="MUROTAL DOWNLOADER SCRIPT"    # script name
 VER="2.2"                            # script version
 
 ID_CODE=$1
-PATH_MUROTAL=$2
+TARGET_PATH=$2
 
 COL_RED="\033[22;31m"
 COL_GREEN="\033[22;32m"
@@ -80,42 +80,42 @@ download_murotal_perjuz() {
 selected_download() {
   case $ID_CODE in
     10 | 1000)
-      export PATH_MUROTAL="$PATH_MUROTAL/1000_Misyari_Rasyid"
+      export PATH_MUROTAL="$TARGET_PATH/1000_Misyari_Rasyid"
       export DOWNLOAD_PATH="https://ia801204.us.archive.org/17/items/Misyari_Rasyid_per_Juz"
       ;;
 
     12 | 1200)
-      export PATH_MUROTAL="$PATH_MUROTAL/1200_Saad_AlGhamidi"
+      export PATH_MUROTAL="$TARGET_PATH/1200_Saad_AlGhamidi"
       export DOWNLOAD_PATH="https://ia903200.us.archive.org/20/items/SaadAl-GhamidiPerJuz"
       ;;
 
     14 | 1400)
-      export PATH_MUROTAL="$PATH_MUROTAL/1400_Abdurrahman_AsSudais"
+      export PATH_MUROTAL="$TARGET_PATH/1400_Abdurrahman_AsSudais"
       export DOWNLOAD_PATH="https://ia801904.us.archive.org/14/items/AbdurrahmanSudaisPerJuz"
       ;;
 
     16 | 1600)
-      export PATH_MUROTAL="$PATH_MUROTAL/1600_Hany_ArRifai"
+      export PATH_MUROTAL="$TARGET_PATH/1600_Hany_ArRifai"
       export DOWNLOAD_PATH="https://ia801207.us.archive.org/10/items/HanyAr-RifaiPerJuz"
       ;;
 
     18 | 1800)
-      export PATH_MUROTAL="$PATH_MUROTAL/1800_Yasser_AlDosari"
+      export PATH_MUROTAL="$TARGET_PATH/1800_Yasser_AlDosari"
       export DOWNLOAD_PATH="https://ia803203.us.archive.org/26/items/YasserAlDosariPerJuz"
       ;;
 
     20 | 2000)
-      export PATH_MUROTAL="$PATH_MUROTAL/2000_Saud_AlShuraim"
+      export PATH_MUROTAL="$TARGET_PATH/2000_Saud_AlShuraim"
       export DOWNLOAD_PATH="https://ia903208.us.archive.org/20/items/SaudAlShuraimPerJuz"
       ;;
 
     22 | 2200)
-      export PATH_MUROTAL="$PATH_MUROTAL/2200_Nasser_AlQatami"
+      export PATH_MUROTAL="$TARGET_PATH/2200_Nasser_AlQatami"
       export DOWNLOAD_PATH="https://ia800400.us.archive.org/23/items/Nasseralqatamieveryjuz"
       ;;
 
     24 | 2400)
-      export PATH_MUROTAL="$PATH_MUROTAL/2400_Abdul_Basit_AbdulSamad"
+      export PATH_MUROTAL="$TARGET_PATH/2400_Abdul_Basit_AbdulSamad"
       export DOWNLOAD_PATH="https://ia903200.us.archive.org/23/items/AbdulBasitAbdulsamadPerJuz"
       ;;
 
@@ -123,7 +123,7 @@ selected_download() {
       echo ""
       echo ">> Unknown MID (Murotal ID)"
       echo ">> Set to default MID: 10"
-      export PATH_MUROTAL="$PATH_MUROTAL/1000_Misyari_Rasyid"
+      export PATH_MUROTAL="$TARGET_PATH/1000_Misyari_Rasyid"
       export DOWNLOAD_PATH="https://ia801204.us.archive.org/17/items/Misyari_Rasyid_per_Juz"
       echo ""
       ;;
